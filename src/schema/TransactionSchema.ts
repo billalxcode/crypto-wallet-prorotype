@@ -1,4 +1,5 @@
 export type TransactionSchema = {
+    id: string,
     tx_hash: string,
     status: string,
     block: number,
